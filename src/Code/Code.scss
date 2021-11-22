@@ -1,0 +1,23 @@
+.code-box {
+    min-height: 3rem;
+}
+
+.code-btn {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.code-btn-hover {
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.nav-item {
+    cursor: pointer;
+}

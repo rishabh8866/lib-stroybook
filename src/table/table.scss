@@ -1,0 +1,31 @@
+.table-header {
+    cursor: pointer;
+    &:hover {
+        .table-header-sort {
+            &__up{
+                visibility: visible;
+            }
+            &__down{
+                visibility: visible;
+            }
+        }
+    }
+    .table-header-sort {
+        &__up{
+            visibility: hidden;
+            &::after {
+                right: 1rem;
+                content: "\2191";
+                font-size: 1rem;
+            }
+        }
+        &__down{
+            visibility: hidden;
+            &::before {
+                right: 1rem;
+                content: "\2193";
+                font-size: 1rem;
+            }
+        }
+    }
+}

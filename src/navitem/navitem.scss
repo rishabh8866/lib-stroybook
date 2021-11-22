@@ -1,0 +1,22 @@
+.dropdown-menu.show {
+    display: block;
+    margin-top: 1rem;;
+}
+
+.dropdown-menu-right {
+    right: 1rem;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    white-space: normal;
+}
+
+@media only screen and (max-width: 420px) {
+    .dropdown-menu-right {
+        right: .2rem;
+    }
+    .dropdown-menu.show {
+        width:98%
+    }
+}

@@ -1,0 +1,9 @@
+@import '~react-datepicker/dist/react-datepicker.css';
+.date-picker {
+    display: flex;
+    align-items: center;
+    span {
+        position: absolute;
+        right: 35px;
+    }
+}
